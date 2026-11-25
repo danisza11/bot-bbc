@@ -126,4 +126,6 @@ bot.onText(/\/ceklist/, async (msg) => {
 
   let text = '*Daftar Evaluasi Mingguan (< 560 BBC):*\n';
   if (belowWeeklyTarget.length === 0) {
-    text +=
+    text += 'Semua anggota sudah memenuhi target mingguan.\n';
+  }
+});
